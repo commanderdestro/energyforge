@@ -3,23 +3,45 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  min-height: 100vh;
-  min-width: 100vw;
+  height: 100%;
+  width: 100%;
   flex-shrink: 0;
 }
 
 .logo-forge {
-  width: 40vw;
+  width: 100vw;
   max-height: 25vw;
+  font-family: courier;
+  font-weight: 500;
+  color: #FE1C41;
+  font-size: 60px;
+  line-height: 60px;
+  margin-top: -15px;
+  text-align: center;
+  white-space: nowrap;
 }
 
-.social-logos {
+.footer {
+  position:absolute;
+  bottom: 0px;
+  left: 46vw;
+margin-bottom: 10px;
+  
+  display: flex;
+  justify-content: center;
 }
+
 
 .logo-bottom{
-  stroke: 2;
-  color: blue;
-  
+  fill: #1d1e1f;
+  stroke: rgba(255, 255, 255, 0.7);
+  width: 40px;
+  height: 40px;
+  margin: 5px;
+}
+
+.fills{
+  fill: rgba(255, 255, 255, 0.7);
 }
 
 .typewritter-text {
@@ -31,6 +53,7 @@
   font-family: 'Source Code Pro', monospace;
   font-size: 28px;
   color: rgba(255, 255, 255, 0.7);
+  margin-top: 15px;
 }
 
 @keyframes animated-text {
